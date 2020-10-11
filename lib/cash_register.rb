@@ -11,7 +11,8 @@ class CashRegister
   end
   # binding.pry
   def add_item(title, price, *quantity)
-    @total + price(*quantity)
+    #@total + price
+    price *quantity
   end
 
 # if quantity += 1
