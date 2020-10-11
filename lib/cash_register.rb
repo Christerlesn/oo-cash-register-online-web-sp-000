@@ -24,11 +24,8 @@ def apply_discount
   end
 end
 
-def items
-  @items
-end
-# def void_last_transaction
-#   self.total = self.total - self.last_transaction_amount
-# end
+ def void_last_transaction
+   self.total = self.total - self.last_transaction_amount
+ end
 
 end #end of class CashRegister
