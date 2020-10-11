@@ -9,7 +9,7 @@ class CashRegister
     discount = 20
     @discount = discount
   end
-  binding.pry
+  # binding.pry
   def add_item(title, price, *quantity)
     new_total = price(*quantity)
     @total << new_total
