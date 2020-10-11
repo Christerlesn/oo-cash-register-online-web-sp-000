@@ -24,6 +24,6 @@ def apply_discount
 end
 # def void_last_transaction
 #   self.total = self.total - self.last_transaction_amount
- end
+# end
 
 end #end of class CashRegister
