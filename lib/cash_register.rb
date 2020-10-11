@@ -11,9 +11,10 @@ class CashRegister
   end
   # binding.pry
   def add_item(title, price, *quantity)
-    title = self.new
-    new_total = price * quantity
-    @total << new_total
+    updated_total = 0
+    @total << price.inject do |num, quantity|
+      updated_total << num * quantity + @total
+    end
   end
 
 end #end of class CashRegister
