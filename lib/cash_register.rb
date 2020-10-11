@@ -16,4 +16,4 @@ class CashRegister
   end
 
 end #end of class CashRegister
-#binding.pry
+binding.pry
