@@ -16,5 +16,12 @@ class CashRegister
     end
   end
 
+# if quantity += 1
+#   price * quantity + total
+# else
+#   price + total
+
+
+
 end #end of class CashRegister
 binding.pry
