@@ -4,23 +4,13 @@ class CashRegister
 
   attr_accessor :discount, :total
 
-  def initialize(total = 0, *discount)
-    @total = total
-    discount = 20
+  def initialize(discount = 0)
+    total = 0
     @discount = discount
+    @items = []
   end
-  # binding.pry
-  def add_item(title, price, *quantity)
-    #@total + price
-    price * quantity
-  end
-
-# if quantity += 1
-#   price * quantity + total
-# else
-#   price + total
 
 
 
 end #end of class CashRegister
-binding.pry
+#binding.pry
