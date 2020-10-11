@@ -22,6 +22,10 @@ def apply_discount
   "After the discount, the total comes to $#{@total}."
   end
 end
+
+def items
+  @items
+end
 # def void_last_transaction
 #   self.total = self.total - self.last_transaction_amount
 # end
