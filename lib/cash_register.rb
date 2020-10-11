@@ -11,9 +11,8 @@ class CashRegister
   end
   # binding.pry
   def add_item(title, price, *quantity)
-    updated_total = 0
-    (price, quantity).inject do |num, quan|
-      updated_total = num * quan + @total
+    price.each do |n|
+      n * quantity + @total
     end
   end
 
